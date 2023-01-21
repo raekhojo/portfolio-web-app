@@ -1,18 +1,36 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <app-hero/>
+  <app-featured-work/>
+  <app-about/>
+  <portfolio-pic/>
+  <app-experience/>
+  <app-services/>
+  <app-cta/>
+  <app-footer/>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import AppHero from '@/components/AppHero.vue'
+import AppFeaturedWork from '@/components/AppFeaturedWork.vue'
+import AppAbout from '@/components/AppAbout.vue'
+import PortfolioPic from '@/components/PortfolioPic.vue'
+import AppExperience from '@/components/AppExperience.vue'
+import AppServices from '@/components/AppServices.vue'
+import AppCta from '@/components/AppCta.vue'
+import AppFooter from '@/components/AppFooter.vue'
 
 export default {
   name: 'HomeView',
   components: {
-    HelloWorld
+    AppHero,
+    AppFeaturedWork,
+    AppAbout,
+    PortfolioPic,
+    AppExperience,
+    AppServices,
+    AppCta,
+    AppFooter
   }
 }
 </script>
