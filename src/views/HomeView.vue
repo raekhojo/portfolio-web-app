@@ -6,7 +6,6 @@
   <app-experience/>
   <app-services/>
   <app-cta/>
-  <app-footer/>
 </template>
 
 <script>
@@ -18,7 +17,6 @@ import PortfolioPic from '@/components/PortfolioPic.vue'
 import AppExperience from '@/components/AppExperience.vue'
 import AppServices from '@/components/AppServices.vue'
 import AppCta from '@/components/AppCta.vue'
-import AppFooter from '@/components/AppFooter.vue'
 
 export default {
   name: 'HomeView',
@@ -29,8 +27,7 @@ export default {
     PortfolioPic,
     AppExperience,
     AppServices,
-    AppCta,
-    AppFooter
+    AppCta
   }
 }
 </script>
